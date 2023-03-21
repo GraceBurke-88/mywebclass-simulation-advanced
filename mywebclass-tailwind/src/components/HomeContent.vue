@@ -4,42 +4,53 @@ export default {
 };
 </script>
 <template>
-  <main>
-    <div class="container my-5">
-      <div
-        class="row p-4 pb-0 pe-lg-0 pt-lg-0 items-center rounded-3 border shadow-lg"
-      >
-        <div class="col-lg-7 p-3 p-lg-3 pt-lg-1">
-          <h1 class="text-3xl font-bold leading-tight">
-            Revolutionize your teaching
-          </h1>
-          <p class="text-xl leading-relaxed">
-            Empower your students with cutting-edge software engineering skills.
-            Join MyWebClass and discover advanced technologies that will
-            transform your teaching and their learning journey.
-          </p>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-            <button
-              type="button"
-              class="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-4 rounded-lg"
-            >
-              Start Here
-            </button>
-          </div>
+  <div class="bg-white rounded-lg shadow-md overflow-hidden">
+    <div class="md:flex hero-card rounded-lg px-6">
+      <div class="p-24">
+        <div
+          class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+        >
+          <h1 class="hero-title">Revolutionize your teaching</h1>
         </div>
-        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img
-            class="rounded-lg img-fluid"
-            src="../assets/teacher.gif"
-            alt="a teacher with students"
-            width="720"
-          />
+        <a
+          href="#"
+          class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+          >Empower your students with cutting-edge software engineering skills.
+          Join MyWebClass and discover advanced technologies that will transform
+          your teaching and their learning journey.</a
+        >
+        <div class="mt-2">
+          <button
+            class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full"
+          >
+            Start Here
+          </button>
         </div>
       </div>
+      <div class="md:flex-shrink-0">
+        <img
+          class="md:w-64 md:h-full md:object-cover object-right-top"
+          src="../assets/teacher.gif"
+          alt="a teacher with students"
+        />
+      </div>
     </div>
-  </main>
+  </div>
 </template>
 
 <style scoped>
-/* Add Tailwind CSS styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-title {
+  font-size: 2rem;
+}
+
+.hero-card {
+  width: 90%;
+  margin: 5% auto;
+  box-shadow: 5px 5px 8px 8px grey;
+}
 </style>
