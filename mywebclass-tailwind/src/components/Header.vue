@@ -9,7 +9,11 @@ export default {
 </script>
 <template>
   <header role="banner" class="fixed top-0 w-full">
-    <nav role="navigation" aria-label="Main navigation" class="bg-gray-800">
+    <nav
+      role="navigation"
+      aria-label="Main navigation"
+      class="px-12 bg-gray-800"
+    >
       <div class="container mx-auto px-4">
         <div class="flex justify-between items-center py-4">
           <a class="text-white text-xl font-bold leading-none" href="/"
