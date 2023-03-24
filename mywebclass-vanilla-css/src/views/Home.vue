@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home">
     <MainCard />
   </div>
 </template>
@@ -8,4 +8,11 @@
 import MainCard from "../components/MainCard.vue";
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+#home {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>

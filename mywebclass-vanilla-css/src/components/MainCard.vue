@@ -23,6 +23,8 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin-top: 3rem;
+  padding: 1rem;
+  box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.8);
 }
 .card-content {
   text-align: left;

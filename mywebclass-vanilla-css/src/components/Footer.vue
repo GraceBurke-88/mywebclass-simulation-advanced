@@ -40,4 +40,8 @@ footer {
 input {
   border-radius: 0.25rem;
 }
+button {
+  background-color: rgb(13, 110, 253);
+  color: white;
+}
 </style>
