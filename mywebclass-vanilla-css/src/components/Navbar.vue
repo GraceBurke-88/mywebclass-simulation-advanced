@@ -2,8 +2,16 @@
   <header>
     <nav>
       <ul>
-        <li><a href="#" class="title">MyWebClass.org</a></li>
-        <li><a href="#" class="content">Content Template</a></li>
+        <li>
+          <RouterLink :to="{ name: 'home' }" class="title"
+            >MyWebClass.org</RouterLink
+          >
+        </li>
+        <li>
+          <RouterLink :to="{ name: 'content' }" class="content"
+            >Content Template</RouterLink
+          >
+        </li>
       </ul>
     </nav>
   </header>
@@ -14,7 +22,7 @@
 <style scoped>
 header {
   background-color: rgb(33, 37, 41);
-  max-height: 64px;
+  max-height: 4rem;
   position: absolute;
   top: 0;
   left: 0;
