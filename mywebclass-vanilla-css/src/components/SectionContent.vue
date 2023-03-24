@@ -1,6 +1,6 @@
 <template>
-  <section :id="`section${id}`">
-    <h2>Section</h2>
+  <section :id="`section${props.id}`">
+    <h2>Section {{ props.id }}</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor
       augue massa, ac maximus nibh dapibus vel. Nulla luctus, magna at pulvinar
