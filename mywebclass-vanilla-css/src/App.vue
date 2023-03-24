@@ -6,8 +6,14 @@ import Footer from "./components/Footer.vue";
 
 <template>
   <Navbar />
-  <MainCard />
+  <main>
+    <RouterView />
+  </main>
   <Footer />
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  margin-top: 4.5rem;
+}
+</style>
