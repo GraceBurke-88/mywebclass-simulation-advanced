@@ -6,10 +6,10 @@
     <div class="sidebar">
       <h2>Navigation</h2>
       <ul>
-        <li><RouterLink to="#section2" />Article Title</li>
-        <li><RouterLink to="#section2" />Section 2</li>
-        <li><RouterLink to="#section3" />Section 3</li>
-        <li><RouterLink to="#section4" />Section 4</li>
+        <li><a href="#section2">Article Title</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+        <li><a href="#section4">Section 4</a></li>
       </ul>
     </div>
   </aside>
@@ -23,6 +23,7 @@ aside {
 }
 li {
   list-style: none;
+  cursor: pointer;
 }
 
 .sidebar {
